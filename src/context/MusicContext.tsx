@@ -21,7 +21,7 @@ export const MusicProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     // You'll need to add your music file to the public folder
     audioRef.current = new Audio('/music/bgm.mp3'); // Changed path to /music/bgm.mp3
     audioRef.current.loop = true;
-    audioRef.current.volume = 0.4; // 40% volume
+    audioRef.current.volume = 0.7; // 40% volume
 
     return () => {
       if (audioRef.current) {
