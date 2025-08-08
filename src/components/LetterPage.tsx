@@ -16,10 +16,12 @@ const LetterPage: React.FC<LetterPageProps> = ({ onNext }) => {
 
   const messages = [
     "My Dearest Pari",
-    "You light up my world with your smile and love, right from the childhood. Having you in my life is a true blessing.",
+    "You light up my world with your smile and love, right from the childhood.",
+    "Having you in my life is a true blessing.",
     "This Raksha Bandhan, I promise, no distance or challenge will ever break our bond.",
     "Take care, study well and become an OG lawyer",
-    "ykw, can't wait for the day i say - BETTER CALL PARI"
+    "ykw, can't wait for the day i say - BETTER CALL PARI",
+    "HELL YEA"
   ];
 
   const typeMessage = (paragraphIndex: number) => {
@@ -252,7 +254,7 @@ const LetterPage: React.FC<LetterPageProps> = ({ onNext }) => {
                           animate={{ opacity: 1, scale: 1 }}
                           transition={{ delay: 0.4, duration: 0.6, type: "spring" }}
                         >
-                          Your Loving Brother ❤️
+                          Your Raj ❤️
                         </motion.p>
                       </div>
 
