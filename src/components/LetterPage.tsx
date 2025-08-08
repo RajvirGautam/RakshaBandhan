@@ -15,9 +15,11 @@ const LetterPage: React.FC<LetterPageProps> = ({ onNext }) => {
   const [allTypingComplete, setAllTypingComplete] = useState(false);
 
   const messages = [
-    "My Dearest Sister, Prerna,",
-    "You light up my world with your smile and love. Having you in my life is a true blessing.",
-    "This Raksha Bandhan, I promise, no distance or challenge will ever break our bond."
+    "My Dearest Pari",
+    "You light up my world with your smile and love, right from the childhood. Having you in my life is a true blessing.",
+    "This Raksha Bandhan, I promise, no distance or challenge will ever break our bond.",
+    "Take care, study well and become an OG lawyer",
+    "ykw, can't wait for the day i say - BETTER CALL PARI"
   ];
 
   const typeMessage = (paragraphIndex: number) => {
