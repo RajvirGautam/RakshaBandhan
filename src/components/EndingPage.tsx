@@ -8,7 +8,7 @@ const EndingPage: React.FC = () => {
   const motionRef = useRef<HTMLDivElement>(null);
 
   // Single simple message
-  const message = "Thank you for being the most amazing and badmosh sister in the world! May our bond continue to grow stronger with each passing year.";
+  const message = "Thank you for being the most amazing and badmosh sister in the world! May our bond continue to grow stronger with each passing year :)";
 
   useEffect(() => {
     // Create splash effects
@@ -328,7 +328,7 @@ const EndingPage: React.FC = () => {
                       }}
                       transition={{ duration: 3, repeat: Infinity }}
                     >
-                      A Message From Your Brother
+                      A Message From Raj
                     </motion.h2>
                   </div>
 
